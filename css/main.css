@@ -1,0 +1,77 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,700|Playfair+Display')
+
+html, body {
+	height: 100%;
+	background-color: #ffffff;
+}
+.container {
+	width: 80%;
+	margin: 100px;
+	background-color: #ffffff;
+	box-shadow: 0px 4px 68px 0px rgba(0, 0, 0, 0.1);
+	padding: 100px;
+}
+h1 {
+	font-family: 'Playfair Display', serif;
+	color: #171717;
+	font-size: 42px;
+	font-weight: 400;
+	text-align: left;
+}
+article {
+	font-family: 'Lato', sans-serif;
+	color: #171717;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 34px;
+	text-align: left;
+	margin-top: 20px;
+}
+article:first-letter {
+	font-family: 'Playfair Display', serif;
+	color: #171717;
+	font-size: 130px;
+	font-weight: 400;
+	text-align: left;
+	float: left;
+  	line-height: 40px;
+  	padding-top:30px;
+  	padding-right: 30px;
+}
+p {
+	padding-bottom: 20px;
+}
+blockquote {
+	font-size: 24px;
+	font-style: italic;
+	padding-top: 0px;
+	padding-bottom: 20px;
+}
+blockquote:before {
+  content: open-quote;
+  vertical-align: text-top;
+  font-size: 2em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+button {
+	border: 2px solid #eaa258;
+	width: 260px;
+	height: 64px;
+	background-color: #ffffff; 
+}
+span {
+	font-family: 'Lato', sans-serif;
+	color: #eaa258;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 34px;
+	text-align: center;
+}
